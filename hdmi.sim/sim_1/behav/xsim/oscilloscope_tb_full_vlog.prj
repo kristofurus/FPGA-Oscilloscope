@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../hdmi.gen/sources_1/bd/clock_gen/ipshared/7698" \
+"../../../../hdmi.ip_user_files/bd/clock_gen/ip/clock_gen_clk_wiz_0_0/clock_gen_clk_wiz_0_0_clk_wiz.v" \
+"../../../../hdmi.ip_user_files/bd/clock_gen/ip/clock_gen_clk_wiz_0_0/clock_gen_clk_wiz_0_0.v" \
+"../../../../hdmi.ip_user_files/bd/clock_gen/ip/clock_gen_clk_wiz_1_0/clock_gen_clk_wiz_1_0_clk_wiz.v" \
+"../../../../hdmi.ip_user_files/bd/clock_gen/ip/clock_gen_clk_wiz_1_0/clock_gen_clk_wiz_1_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

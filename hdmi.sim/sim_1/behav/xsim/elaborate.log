@@ -1,0 +1,90 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot oscilloscope_tb_full_behav xil_defaultlib.oscilloscope_tb_full xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.font_pkg
+Compiling package xil_defaultlib.image_generation_pkg
+Compiling package xil_defaultlib.resolutions
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture logic of entity xil_defaultlib.i2c_slave [i2c_slave_default]
+Compiling architecture behavioral of entity xil_defaultlib.serialToParallel [serialtoparallel_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.inputDivider [inputdivider_default]
+Compiling architecture behavioral of entity xil_defaultlib.dataFIFO [\dataFIFO(array_width=512)\]
+Compiling architecture behavioral of entity xil_defaultlib.values_register [\values_register(array_width=512...]
+Compiling architecture behavioral of entity xil_defaultlib.signal_register [\signal_register(array_width=512...]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=49.0,...
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.BUFGCE
+Compiling module unisims_ver.BUFH
+Compiling module xil_defaultlib.clock_gen_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.clock_gen_clk_wiz_0_0
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=8.0,C...
+Compiling module xil_defaultlib.clock_gen_clk_wiz_1_0_clk_wiz
+Compiling module xil_defaultlib.clock_gen_clk_wiz_1_0
+Compiling architecture structure of entity xil_defaultlib.clock_gen [clock_gen_default]
+Compiling architecture structure of entity xil_defaultlib.clock_gen_wrapper [clock_gen_wrapper_default]
+Compiling architecture logic of entity xil_defaultlib.i2c_master [i2c_master_default]
+Compiling architecture behavioral of entity xil_defaultlib.debouncer [debouncer_default]
+Compiling architecture behavior of entity xil_defaultlib.i2c_communication [i2c_communication_default]
+Compiling architecture behavioral of entity xil_defaultlib.prescaler [prescaler_default]
+Compiling architecture behavioral of entity xil_defaultlib.draw_signal [\draw_signal(x0=353,y0=136,width...]
+Compiling architecture behavioral of entity xil_defaultlib.calculate_params [\calculate_params(array_width=51...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=298,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=317,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=336,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=355,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=374,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=393,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=412,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=431,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=458,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=477,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=496,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=515,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=534,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=553,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=572,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=591,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=618,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=637,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=656,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=675,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=694,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=713,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=732,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=751,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=778,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=797,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=816,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=835,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=854,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=873,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=892,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_character [\draw_character(x0=911,y0=454,wi...]
+Compiling architecture behavioral of entity xil_defaultlib.draw_background [\draw_background(res=(1024,48,96...]
+Compiling architecture behavioral of entity xil_defaultlib.screenGeneration [\screenGeneration(res=(1024,48,9...]
+Compiling architecture behavioral of entity xil_defaultlib.counter [\counter(res=(1024,48,96,288,432...]
+Compiling architecture behavioral of entity xil_defaultlib.tmds_encoder [tmds_encoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.serializer [serializer_default]
+Compiling architecture obufds_v of entity unisim.OBUFDS [\OBUFDS(iostandard="TMDS_33",sle...]
+Compiling architecture behavioral of entity xil_defaultlib.video_generator [\video_generator(res=(1024,48,96...]
+Compiling architecture behavioral of entity xil_defaultlib.oscilloscope [oscilloscope_default]
+Compiling architecture behavioral of entity xil_defaultlib.oscilloscope_tb_full
+Built simulation snapshot oscilloscope_tb_full_behav

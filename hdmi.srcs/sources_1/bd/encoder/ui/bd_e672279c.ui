@@ -1,0 +1,25 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.90957",
+   "Default View_TopLeft":"-112,-33",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_ap_clk -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_ap_rst -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_draw_en -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace portBus d_out -pg 1 -lvl 2 -x 340 -y 100 -defaultsOSRD
+preplace portBus ctrl -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace portBus d_in -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace inst encode_0 -pg 1 -lvl 1 -x 170 -y 100 -defaultsOSRD
+preplace netloc ap_clk_0_1 1 0 1 NJ 60
+preplace netloc ap_rst_0_1 1 0 1 NJ 80
+preplace netloc ctrl_0_1 1 0 1 NJ 120
+preplace netloc d_in_0_1 1 0 1 NJ 140
+preplace netloc draw_en_0_1 1 0 1 NJ 100
+preplace netloc encode_0_ap_return 1 1 1 N 100
+levelinfo -pg 1 0 170 340
+pagesize -pg 1 -db -bbox -sgen -120 0 460 200
+"
+}
+0

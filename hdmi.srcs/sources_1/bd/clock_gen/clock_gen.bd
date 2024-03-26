@@ -1,0 +1,417 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6F8B181072DB30DC",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../hdmi.gen/sources_1/bd/clock_gen",
+      "name": "clock_gen",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "clk_wiz_1": ""
+    },
+    "ports": {
+      "clk_in": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "clock_gen_clk_in",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0"
+          }
+        }
+      },
+      "reset_rtl": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "pixel_clk": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "/clk_wiz_0_clk_out1",
+            "value_src": "ip_prop"
+          },
+          "FREQ_HZ": {
+            "value": "40000000",
+            "value_src": "ip_prop"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "tmds_clk": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "/clk_wiz_0_clk_out1",
+            "value_src": "ip_prop"
+          },
+          "FREQ_HZ": {
+            "value": "400000000",
+            "value_src": "ip_prop"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "pll_en": {
+        "direction": "O"
+      },
+      "clk": {
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "/clk_wiz_1_clk_out1",
+            "value_src": "ip_prop"
+          },
+          "FREQ_HZ": {
+            "value": "50000000",
+            "value_src": "ip_prop"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "rst_clk2": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "clk_en": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "clock_gen_clk_wiz_0_0",
+        "xci_path": "ip/clock_gen_clk_wiz_0_0/clock_gen_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "100.0"
+          },
+          "CLKOUT1_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "174.629"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "114.212"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "40"
+          },
+          "CLKOUT2_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "111.164"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "114.212"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "400"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "CLKOUT3_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT3_JITTER": {
+            "value": "136.393"
+          },
+          "CLKOUT3_PHASE_ERROR": {
+            "value": "116.462"
+          },
+          "CLKOUT3_REQUESTED_OUT_FREQ": {
+            "value": "100.000"
+          },
+          "CLKOUT3_USED": {
+            "value": "false"
+          },
+          "CLKOUT4_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT4_REQUESTED_OUT_FREQ": {
+            "value": "100.000"
+          },
+          "CLKOUT5_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT5_REQUESTED_OUT_FREQ": {
+            "value": "100.000"
+          },
+          "CLKOUT6_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT6_REQUESTED_OUT_FREQ": {
+            "value": "100.000"
+          },
+          "CLKOUT7_DRIVES": {
+            "value": "BUFGCE"
+          },
+          "CLKOUT7_REQUESTED_OUT_FREQ": {
+            "value": "100.000"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "Custom"
+          },
+          "CLK_OUT1_PORT": {
+            "value": "pix_clk"
+          },
+          "CLK_OUT2_PORT": {
+            "value": "tmds_clk"
+          },
+          "CLK_OUT3_PORT": {
+            "value": "clk_out3"
+          },
+          "ENABLE_CLOCK_MONITOR": {
+            "value": "false"
+          },
+          "FEEDBACK_SOURCE": {
+            "value": "FDBK_AUTO"
+          },
+          "MMCM_BANDWIDTH": {
+            "value": "OPTIMIZED"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "8.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "10.000"
+          },
+          "MMCM_CLKIN2_PERIOD": {
+            "value": "10.000"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "20.000"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "2"
+          },
+          "MMCM_CLKOUT2_DIVIDE": {
+            "value": "1"
+          },
+          "MMCM_COMPENSATION": {
+            "value": "ZHOLD"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
+          },
+          "OVERRIDE_MMCM": {
+            "value": "false"
+          },
+          "PRIMITIVE": {
+            "value": "MMCM"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "100"
+          },
+          "PRIM_SOURCE": {
+            "value": "Single_ended_clock_capable_pin"
+          },
+          "SECONDARY_SOURCE": {
+            "value": "Single_ended_clock_capable_pin"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          },
+          "USE_FREQ_SYNTH": {
+            "value": "true"
+          },
+          "USE_LOCKED": {
+            "value": "true"
+          },
+          "USE_PHASE_ALIGNMENT": {
+            "value": "true"
+          },
+          "USE_POWER_DOWN": {
+            "value": "false"
+          },
+          "USE_SAFE_CLOCK_STARTUP": {
+            "value": "true"
+          }
+        }
+      },
+      "clk_wiz_1": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "clock_gen_clk_wiz_1_0",
+        "xci_path": "ip/clock_gen_clk_wiz_1_0/clock_gen_clk_wiz_1_0.xci",
+        "inst_hier_path": "clk_wiz_1",
+        "parameters": {
+          "CLKIN1_JITTER_PS": {
+            "value": "80.0"
+          },
+          "CLKOUT1_JITTER": {
+            "value": "124.615"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "96.948"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "100"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "143.688"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "96.948"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "50"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "CLK_OUT1_PORT": {
+            "value": "clk_hdmi"
+          },
+          "CLK_OUT2_PORT": {
+            "value": "clk_out"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "8.000"
+          },
+          "MMCM_CLKIN1_PERIOD": {
+            "value": "8.000"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "10.000"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "20"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
+          },
+          "PRIM_IN_FREQ": {
+            "value": "125"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_in_1": {
+        "ports": [
+          "clk_in",
+          "clk_wiz_1/clk_in1"
+        ]
+      },
+      "clk_wiz_0_locked": {
+        "ports": [
+          "clk_wiz_0/locked",
+          "pll_en"
+        ]
+      },
+      "clk_wiz_0_pix_clk": {
+        "ports": [
+          "clk_wiz_0/pix_clk",
+          "pixel_clk"
+        ]
+      },
+      "clk_wiz_0_tmds_clk": {
+        "ports": [
+          "clk_wiz_0/tmds_clk",
+          "tmds_clk"
+        ]
+      },
+      "clk_wiz_1_clk_hdmi": {
+        "ports": [
+          "clk_wiz_1/clk_hdmi",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_1_clk_out": {
+        "ports": [
+          "clk_wiz_1/clk_out",
+          "clk"
+        ]
+      },
+      "clk_wiz_1_locked": {
+        "ports": [
+          "clk_wiz_1/locked",
+          "clk_en"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "rst_clk2",
+          "clk_wiz_0/reset"
+        ]
+      },
+      "reset_rtl_1": {
+        "ports": [
+          "reset_rtl",
+          "clk_wiz_1/reset"
+        ]
+      }
+    }
+  }
+}

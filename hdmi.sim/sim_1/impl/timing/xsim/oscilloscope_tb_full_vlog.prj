@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../hdmi.gen/sources_1/bd/clock_gen/ipshared/7698" \
+"oscilloscope_tb_full_time_impl.v" \
+
+# Do not sort compile order
+nosort

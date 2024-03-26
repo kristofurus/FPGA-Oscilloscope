@@ -1,0 +1,19 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../hdmi.srcs/sim_1/new/resolutions_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/serializer_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/counter_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/video_generator_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/decoder.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/screenGeneration_tb.vhd" \
+"../../../../../hdmi.srcs/sources_1/new/serialToParallel.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/colors_resolve_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/signal_register_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/calculate_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/oscilloscope_noADC_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/imports/new/i2c_slave.vhd" \
+"../../../../../hdmi.srcs/sim_1/imports/new/i2c_communication_tb.vhd" \
+"../../../../../hdmi.srcs/sim_1/new/oscilloscope_tb_full.vhd" \
+
+# Do not sort compile order
+nosort

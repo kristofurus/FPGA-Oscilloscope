@@ -1,0 +1,153 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9FF377CB1DDE06E5",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../hdmi.gen/sources_1/bd/encoder",
+      "name": "encoder",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "encode_0": ""
+    },
+    "ports": {
+      "ap_clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "ap_rst"
+          },
+          "CLK_DOMAIN": {
+            "value": "encoder_ap_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "d_out": {
+        "type": "data",
+        "direction": "O",
+        "left": "9",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "ap_rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "ctrl": {
+        "type": "data",
+        "direction": "I",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "d_in": {
+        "type": "data",
+        "direction": "I",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "draw_en": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "encode_0": {
+        "vlnv": "xilinx.com:ZAMFP:encode:1.0",
+        "xci_name": "encoder_encode_0_0",
+        "xci_path": "ip\\encoder_encode_0_0\\encoder_encode_0_0.xci",
+        "inst_hier_path": "encode_0"
+      }
+    },
+    "nets": {
+      "ap_clk_0_1": {
+        "ports": [
+          "ap_clk",
+          "encode_0/ap_clk"
+        ]
+      },
+      "ap_rst_0_1": {
+        "ports": [
+          "ap_rst",
+          "encode_0/ap_rst"
+        ]
+      },
+      "ctrl_0_1": {
+        "ports": [
+          "ctrl",
+          "encode_0/ctrl"
+        ]
+      },
+      "d_in_0_1": {
+        "ports": [
+          "d_in",
+          "encode_0/d_in"
+        ]
+      },
+      "draw_en_0_1": {
+        "ports": [
+          "draw_en",
+          "encode_0/draw_en"
+        ]
+      },
+      "encode_0_ap_return": {
+        "ports": [
+          "encode_0/ap_return",
+          "d_out"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-377,-195",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port Vaux14_0 -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace port Vaux15_0 -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
+preplace port Vaux6_0 -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace port Vaux7_0 -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace port Vp_Vn_0 -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port port-id_eoc_out_0 -pg 1 -lvl 2 -x 350 -y 210 -defaultsOSRD
+preplace port port-id_reset_in_0 -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace port port-id_den_in_0 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port port-id_drdy_out_0 -pg 1 -lvl 2 -x 350 -y 40 -defaultsOSRD
+preplace port port-id_dwe_in_0 -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace portBus do_out_0 -pg 1 -lvl 2 -x 350 -y 20 -defaultsOSRD
+preplace portBus di_in_0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace portBus daddr_in_0 -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 1 -x 180 -y 230 -defaultsOSRD
+preplace netloc clk_100MHz_1 1 0 1 NJ 340
+preplace netloc xadc_wiz_0_eoc_out 1 1 1 NJ 210
+preplace netloc reset_in_0_1 1 0 1 NJ 360
+preplace netloc xadc_wiz_0_do_out 1 0 2 20 20 NJ
+preplace netloc di_in_0_1 1 0 1 NJ 160
+preplace netloc den_in_0_1 1 0 1 NJ 140
+preplace netloc daddr_in_0_1 1 0 1 NJ 120
+preplace netloc xadc_wiz_0_drdy_out 1 0 2 30 40 NJ
+preplace netloc dwe_in_0_1 1 0 1 NJ 220
+preplace netloc Vaux14_0_1 1 0 1 NJ 300
+preplace netloc Vaux15_0_1 1 0 1 NJ 320
+preplace netloc Vaux6_0_1 1 0 1 NJ 260
+preplace netloc Vaux7_0_1 1 0 1 NJ 280
+preplace netloc Vp_Vn_0_1 1 0 1 NJ 240
+levelinfo -pg 1 0 180 350
+pagesize -pg 1 -db -bbox -sgen -170 0 510 420
+"
+}
+{
+   "da_clkrst_cnt":"1"
+}

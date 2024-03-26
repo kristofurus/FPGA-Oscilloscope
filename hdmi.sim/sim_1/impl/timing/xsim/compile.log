@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/kris/Vivado/zamfp-project/hdmi.sim/sim_1/impl/timing/xsim/oscilloscope_tb_full_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_gen
+INFO: [VRFC 10-311] analyzing module clock_gen_clk_wiz_0_0
+INFO: [VRFC 10-311] analyzing module clock_gen_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module clock_gen_clk_wiz_1_0
+INFO: [VRFC 10-311] analyzing module clock_gen_clk_wiz_1_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module clock_gen_wrapper
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module i2c_communication
+INFO: [VRFC 10-311] analyzing module i2c_master
+INFO: [VRFC 10-311] analyzing module oscilloscope
+INFO: [VRFC 10-311] analyzing module serializer
+INFO: [VRFC 10-311] analyzing module serializer_2
+INFO: [VRFC 10-311] analyzing module serializer_3
+INFO: [VRFC 10-311] analyzing module tmds_encoder
+INFO: [VRFC 10-311] analyzing module tmds_encoder_0
+INFO: [VRFC 10-311] analyzing module tmds_encoder_1
+INFO: [VRFC 10-311] analyzing module video_generator
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/kris/Vivado/zamfp-project/hdmi.srcs/sim_1/new/resolutions_tb.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'resolutions' is not compiled in library 'xil_defaultlib' [/home/kris/Vivado/zamfp-project/hdmi.srcs/sim_1/new/resolutions_tb.vhd:25]
+INFO: [VRFC 10-3107] analyzing entity 'resolutions_tb'
+ERROR: [VRFC 10-9458] unit 'resolutions_tb' is ignored due to previous errors [/home/kris/Vivado/zamfp-project/hdmi.srcs/sim_1/new/resolutions_tb.vhd:27]
+INFO: [VRFC 10-8704] VHDL file '/home/kris/Vivado/zamfp-project/hdmi.srcs/sim_1/new/resolutions_tb.vhd' is ignored due to errors

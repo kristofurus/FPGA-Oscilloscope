@@ -1,0 +1,46 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../hdmi.ip_user_files/bd/clock_gen/sim/clock_gen.vhd" \
+"../../../../hdmi.srcs/sources_1/new/resolutions.vhd" \
+"../../../../hdmi.srcs/sources_1/new/font_pkg.vhd" \
+"../../../../hdmi.srcs/sources_1/new/image_generation_pkg.vhd" \
+"../../../../hdmi.gen/sources_1/bd/clock_gen/hdl/clock_gen_wrapper.vhd" \
+"../../../../hdmi.srcs/sources_1/new/video_generator.vhd" \
+"../../../../hdmi.srcs/sources_1/new/serializer.vhd" \
+"../../../../hdmi.srcs/sources_1/new/counter.vhd" \
+"../../../../hdmi.gen/sources_1/bd/encoder/ipshared/8e60/hdl/vhdl/encode.vhd" \
+"../../../../hdmi.ip_user_files/bd/encoder/ip/encoder_encode_0_0/sim/encoder_encode_0_0.vhd" \
+"../../../../hdmi.ip_user_files/bd/encoder/sim/encoder.vhd" \
+"../../../../hdmi.srcs/sources_1/new/tmds_encoder.vhd" \
+"../../../../hdmi.srcs/sources_1/new/screenGeneration.vhd" \
+"../../../../hdmi.gen/sources_1/bd/encoder/hdl/encoder_wrapper.vhd" \
+"../../../../hdmi.srcs/sources_1/new/inputDivider.vhd" \
+"../../../../hdmi.srcs/sources_1/new/dataFIFO.vhd" \
+"../../../../hdmi.srcs/sources_1/new/values_register.vhd" \
+"../../../../hdmi.srcs/sources_1/new/signal_register.vhd" \
+"../../../../hdmi.srcs/sources_1/new/calculate_params.vhd" \
+"../../../../hdmi.srcs/sources_1/new/draw_signal.vhd" \
+"../../../../hdmi.srcs/sources_1/new/draw_background.vhd" \
+"../../../../hdmi.srcs/sources_1/new/oscilloscope.vhd" \
+"../../../../hdmi.srcs/sources_1/new/draw_character.vhd" \
+"../../../../hdmi.srcs/sources_1/imports/new/sw_debouncer.vhd" \
+"../../../../hdmi.srcs/sources_1/imports/new/i2c_master.vhd" \
+"../../../../hdmi.srcs/sources_1/imports/new/i2c_communication.vhd" \
+"../../../../hdmi.srcs/sources_1/new/prescaler.vhd" \
+"../../../../hdmi.srcs/sim_1/new/resolutions_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/serializer_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/counter_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/video_generator_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/decoder.vhd" \
+"../../../../hdmi.srcs/sim_1/new/screenGeneration_tb.vhd" \
+"../../../../hdmi.srcs/sources_1/new/serialToParallel.vhd" \
+"../../../../hdmi.srcs/sim_1/new/colors_resolve_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/signal_register_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/calculate_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/oscilloscope_noADC_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/imports/new/i2c_slave.vhd" \
+"../../../../hdmi.srcs/sim_1/imports/new/i2c_communication_tb.vhd" \
+"../../../../hdmi.srcs/sim_1/new/oscilloscope_tb_full.vhd" \
+
+# Do not sort compile order
+nosort

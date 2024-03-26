@@ -1,0 +1,352 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9CB483034B74B63A",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../hdmi.gen/sources_1/bd/xadc",
+      "name": "xadc",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xadc_wiz_0": ""
+    },
+    "interface_ports": {
+      "Vaux14_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:diff_analog_io:1.0",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0",
+        "port_maps": {
+          "V_N": {
+            "physical_name": "Vaux14_0_v_n",
+            "direction": "I"
+          },
+          "V_P": {
+            "physical_name": "Vaux14_0_v_p",
+            "direction": "I"
+          }
+        }
+      },
+      "Vaux15_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:diff_analog_io:1.0",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0",
+        "port_maps": {
+          "V_N": {
+            "physical_name": "Vaux15_0_v_n",
+            "direction": "I"
+          },
+          "V_P": {
+            "physical_name": "Vaux15_0_v_p",
+            "direction": "I"
+          }
+        }
+      },
+      "Vaux6_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:diff_analog_io:1.0",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0",
+        "port_maps": {
+          "V_N": {
+            "physical_name": "Vaux6_0_v_n",
+            "direction": "I"
+          },
+          "V_P": {
+            "physical_name": "Vaux6_0_v_p",
+            "direction": "I"
+          }
+        }
+      },
+      "Vaux7_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:diff_analog_io:1.0",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0",
+        "port_maps": {
+          "V_N": {
+            "physical_name": "Vaux7_0_v_n",
+            "direction": "I"
+          },
+          "V_P": {
+            "physical_name": "Vaux7_0_v_p",
+            "direction": "I"
+          }
+        }
+      },
+      "Vp_Vn_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:diff_analog_io:1.0",
+        "vlnv": "xilinx.com:interface:diff_analog_io_rtl:1.0",
+        "port_maps": {
+          "V_N": {
+            "physical_name": "Vp_Vn_0_v_n",
+            "direction": "I"
+          },
+          "V_P": {
+            "physical_name": "Vp_Vn_0_v_p",
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "ports": {
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "xadc_clk_100MHz",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "eoc_out_0": {
+        "direction": "O"
+      },
+      "reset_in_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "do_out_0": {
+        "direction": "O",
+        "left": "15",
+        "right": "0"
+      },
+      "di_in_0": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "den_in_0": {
+        "direction": "I"
+      },
+      "daddr_in_0": {
+        "direction": "I",
+        "left": "6",
+        "right": "0"
+      },
+      "drdy_out_0": {
+        "direction": "O"
+      },
+      "dwe_in_0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "xadc_wiz_0": {
+        "vlnv": "xilinx.com:ip:xadc_wiz:3.3",
+        "xci_name": "xadc_xadc_wiz_0_0",
+        "xci_path": "ip/xadc_xadc_wiz_0_0/xadc_xadc_wiz_0_0.xci",
+        "inst_hier_path": "xadc_wiz_0",
+        "parameters": {
+          "ACQUISITION_TIME_VAUXP6_VAUXN6": {
+            "value": "false"
+          },
+          "ADC_CONVERSION_RATE": {
+            "value": "1000"
+          },
+          "CHANNEL_ENABLE_VAUXP0_VAUXN0": {
+            "value": "false"
+          },
+          "CHANNEL_ENABLE_VAUXP14_VAUXN14": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VAUXP15_VAUXN15": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VAUXP6_VAUXN6": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VAUXP7_VAUXN7": {
+            "value": "true"
+          },
+          "CHANNEL_ENABLE_VP_VN": {
+            "value": "true"
+          },
+          "DCLK_FREQUENCY": {
+            "value": "125"
+          },
+          "ENABLE_CALIBRATION_AVERAGING": {
+            "value": "true"
+          },
+          "ENABLE_CONVST": {
+            "value": "true"
+          },
+          "ENABLE_DCLK": {
+            "value": "true"
+          },
+          "ENABLE_DRP": {
+            "value": "false"
+          },
+          "ENABLE_EXTERNAL_MUX": {
+            "value": "false"
+          },
+          "ENABLE_RESET": {
+            "value": "true"
+          },
+          "ENABLE_VCCDDRO_ALARM": {
+            "value": "false"
+          },
+          "ENABLE_VCCPAUX_ALARM": {
+            "value": "false"
+          },
+          "ENABLE_VCCPINT_ALARM": {
+            "value": "false"
+          },
+          "EXTERNAL_MUX_CHANNEL": {
+            "value": "VP_VN"
+          },
+          "INTERFACE_SELECTION": {
+            "value": "ENABLE_DRP"
+          },
+          "NUM_WAVE": {
+            "value": "2"
+          },
+          "OT_ALARM": {
+            "value": "false"
+          },
+          "SEQUENCER_MODE": {
+            "value": "Continuous"
+          },
+          "SINGLE_CHANNEL_SELECTION": {
+            "value": "TEMPERATURE"
+          },
+          "STIMULUS_FREQ": {
+            "value": "1.0"
+          },
+          "TIMING_MODE": {
+            "value": "Continuous"
+          },
+          "USER_TEMP_ALARM": {
+            "value": "false"
+          },
+          "VCCAUX_ALARM": {
+            "value": "false"
+          },
+          "VCCINT_ALARM": {
+            "value": "false"
+          },
+          "WAVEFORM_TYPE": {
+            "value": "SIN"
+          },
+          "XADC_STARUP_SELECTION": {
+            "value": "channel_sequencer"
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "Vaux14_0_1": {
+        "interface_ports": [
+          "Vaux14_0",
+          "xadc_wiz_0/Vaux14"
+        ]
+      },
+      "Vaux15_0_1": {
+        "interface_ports": [
+          "Vaux15_0",
+          "xadc_wiz_0/Vaux15"
+        ]
+      },
+      "Vaux6_0_1": {
+        "interface_ports": [
+          "Vaux6_0",
+          "xadc_wiz_0/Vaux6"
+        ]
+      },
+      "Vaux7_0_1": {
+        "interface_ports": [
+          "Vaux7_0",
+          "xadc_wiz_0/Vaux7"
+        ]
+      },
+      "Vp_Vn_0_1": {
+        "interface_ports": [
+          "Vp_Vn_0",
+          "xadc_wiz_0/Vp_Vn"
+        ]
+      }
+    },
+    "nets": {
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "xadc_wiz_0/dclk_in"
+        ]
+      },
+      "daddr_in_0_1": {
+        "ports": [
+          "daddr_in_0",
+          "xadc_wiz_0/daddr_in"
+        ]
+      },
+      "den_in_0_1": {
+        "ports": [
+          "den_in_0",
+          "xadc_wiz_0/den_in"
+        ]
+      },
+      "di_in_0_1": {
+        "ports": [
+          "di_in_0",
+          "xadc_wiz_0/di_in"
+        ]
+      },
+      "dwe_in_0_1": {
+        "ports": [
+          "dwe_in_0",
+          "xadc_wiz_0/dwe_in"
+        ]
+      },
+      "reset_in_0_1": {
+        "ports": [
+          "reset_in_0",
+          "xadc_wiz_0/reset_in"
+        ]
+      },
+      "xadc_wiz_0_do_out": {
+        "ports": [
+          "xadc_wiz_0/do_out",
+          "do_out_0"
+        ]
+      },
+      "xadc_wiz_0_drdy_out": {
+        "ports": [
+          "xadc_wiz_0/drdy_out",
+          "drdy_out_0"
+        ]
+      },
+      "xadc_wiz_0_eoc_out": {
+        "ports": [
+          "xadc_wiz_0/eoc_out",
+          "eoc_out_0"
+        ]
+      }
+    }
+  }
+}

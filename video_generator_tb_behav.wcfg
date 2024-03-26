@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="oscilloscope_tb_full_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="font_pkg" />
+            <top_module name="glbl" />
+            <top_module name="image_generation_pkg" />
+            <top_module name="oscilloscope_tb_full" />
+            <top_module name="resolutions" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="328.731224 us"></ZoomStartTime>
+      <ZoomEndTime time="341.931225 us"></ZoomEndTime>
+      <Cursor1Time time="335.011224 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="203"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wave_markers>
+      <marker label="" time="1053049903" />
+      <marker label="" time="1053010179" />
+      <marker label="" time="1052970455" />
+      <marker label="" time="1052966482" />
+      <marker label="" time="1052926758" />
+      <marker label="" time="18012183364" />
+      <marker label="" time="18012215111" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/sda">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/scl">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/oscilloscope_tb_full/osc/hdmi/counter_v">
+      <obj_property name="ElementShortName">counter_v</obj_property>
+      <obj_property name="ObjectShortName">counter_v</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/oscilloscope_tb_full/osc/hdmi/counter_h">
+      <obj_property name="ElementShortName">counter_h</obj_property>
+      <obj_property name="ObjectShortName">counter_h</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/draw_en">
+      <obj_property name="ElementShortName">draw_en</obj_property>
+      <obj_property name="ObjectShortName">draw_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/clk_en">
+      <obj_property name="ElementShortName">clk_en</obj_property>
+      <obj_property name="ObjectShortName">clk_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/pll_en">
+      <obj_property name="ElementShortName">pll_en</obj_property>
+      <obj_property name="ObjectShortName">pll_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/pixel_clk">
+      <obj_property name="ElementShortName">pixel_clk</obj_property>
+      <obj_property name="ObjectShortName">pixel_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/tmds_clk">
+      <obj_property name="ElementShortName">tmds_clk</obj_property>
+      <obj_property name="ObjectShortName">tmds_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/encoder_en">
+      <obj_property name="ElementShortName">encoder_en</obj_property>
+      <obj_property name="ObjectShortName">encoder_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/serial_en">
+      <obj_property name="ElementShortName">serial_en</obj_property>
+      <obj_property name="ObjectShortName">serial_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/sw">
+      <obj_property name="ElementShortName">sw[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/osc/din">
+      <obj_property name="ElementShortName">din[0:3][11:0]</obj_property>
+      <obj_property name="ObjectShortName">din[0:3][11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/osc/r">
+      <obj_property name="ElementShortName">r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/osc/g">
+      <obj_property name="ElementShortName">g[7:0]</obj_property>
+      <obj_property name="ObjectShortName">g[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/dataR_p">
+      <obj_property name="ElementShortName">dataR_p</obj_property>
+      <obj_property name="ObjectShortName">dataR_p</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/dec_R">
+      <obj_property name="ElementShortName">dec_R[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_R[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/dec_G">
+      <obj_property name="ElementShortName">dec_G[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_G[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/dec_B">
+      <obj_property name="ElementShortName">dec_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_B[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/dec_ctrl_B">
+      <obj_property name="ElementShortName">dec_ctrl_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_ctrl_B[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider79" type="divider">
+      <obj_property name="label">Encoder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/oscilloscope_tb_full/osc/image/pixel_color">
+      <obj_property name="ElementShortName">pixel_color</obj_property>
+      <obj_property name="ObjectShortName">pixel_color</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/draw_en">
+      <obj_property name="ElementShortName">draw_en</obj_property>
+      <obj_property name="ObjectShortName">draw_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/pixel_clk">
+      <obj_property name="ElementShortName">pixel_clk</obj_property>
+      <obj_property name="ObjectShortName">pixel_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/tmds_clk">
+      <obj_property name="ElementShortName">tmds_clk</obj_property>
+      <obj_property name="ObjectShortName">tmds_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/osc/hdmi/sync">
+      <obj_property name="ElementShortName">sync[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sync[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/osc/b">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/osc/hdmi/tmds_b">
+      <obj_property name="ElementShortName">tmds_b[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tmds_b[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/r_diff">
+      <obj_property name="ElementShortName">r_diff</obj_property>
+      <obj_property name="ObjectShortName">r_diff</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/osc/hdmi/clk_p">
+      <obj_property name="ElementShortName">clk_p</obj_property>
+      <obj_property name="ObjectShortName">clk_p</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/deserial_b">
+      <obj_property name="ElementShortName">deserial_b[9:0]</obj_property>
+      <obj_property name="ObjectShortName">deserial_b[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/oscilloscope_tb_full/ready_b">
+      <obj_property name="ElementShortName">ready_b</obj_property>
+      <obj_property name="ObjectShortName">ready_b</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/dec_B">
+      <obj_property name="ElementShortName">dec_B[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_B[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/oscilloscope_tb_full/dec_ctrl_B">
+      <obj_property name="ElementShortName">dec_ctrl_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dec_ctrl_B[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

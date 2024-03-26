@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-334,-134",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_in -pg 1 -lvl 0 -x 0 -y 170 -defaultsOSRD
+preplace port port-id_reset_rtl -pg 1 -lvl 0 -x 0 -y 150 -defaultsOSRD
+preplace port port-id_pixel_clk -pg 1 -lvl 3 -x 450 -y 60 -defaultsOSRD
+preplace port port-id_tmds_clk -pg 1 -lvl 3 -x 450 -y 80 -defaultsOSRD
+preplace port port-id_pll_en -pg 1 -lvl 3 -x 450 -y 100 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 3 -x 450 -y 160 -defaultsOSRD
+preplace port port-id_rst_clk2 -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace port port-id_clk_en -pg 1 -lvl 3 -x 450 -y 180 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 330 -y 80 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 120 -y 160 -defaultsOSRD
+preplace netloc clk_in_1 1 0 1 NJ 170
+preplace netloc clk_wiz_0_locked 1 2 1 NJ 100
+preplace netloc clk_wiz_0_pix_clk 1 2 1 NJ 60
+preplace netloc clk_wiz_0_tmds_clk 1 2 1 NJ 80
+preplace netloc clk_wiz_1_clk_hdmi 1 1 1 220 90n
+preplace netloc clk_wiz_1_clk_out 1 1 2 NJ 160 NJ
+preplace netloc clk_wiz_1_locked 1 1 2 NJ 180 NJ
+preplace netloc reset_0_1 1 0 2 NJ 70 NJ
+preplace netloc reset_rtl_1 1 0 1 NJ 150
+levelinfo -pg 1 0 120 330 450
+pagesize -pg 1 -db -bbox -sgen -120 0 570 240
+"
+}
+{
+   "da_board_cnt":"3"
+}

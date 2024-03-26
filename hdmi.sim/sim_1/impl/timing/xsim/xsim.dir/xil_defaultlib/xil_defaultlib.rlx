@@ -1,0 +1,5 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/kris/Vivado/zamfp-project/hdmi.sim/sim_1/impl/timing/xsim/oscilloscope_tb_full_time_impl.v,1703168284,verilog,,,,clock_gen;clock_gen_clk_wiz_0_0;clock_gen_clk_wiz_0_0_clk_wiz;clock_gen_clk_wiz_1_0;clock_gen_clk_wiz_1_0_clk_wiz;clock_gen_wrapper;counter;glbl;i2c_communication;i2c_master;oscilloscope;serializer;serializer_2;serializer_3;tmds_encoder;tmds_encoder_0;tmds_encoder_1;video_generator,,,../../../../../hdmi.gen/sources_1/bd/clock_gen/ipshared/7698,,,,,
